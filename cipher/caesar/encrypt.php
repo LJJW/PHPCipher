@@ -1,52 +1,46 @@
-<div class="container is-fluid section">
+<div class="container is-narrow-container is-fluid section">
 	<form action="" method="post">
-		<div class="tile is-ancestor">
-			<div class="tile is-vertical is-7">
-				<textarea class="textarea" placeholder="Plaintext" rows="6" id="text" onkeyup="countChar(this)" name="text"></textarea>
-				<div id="charCount"></div>
+		<div class="columns">
+			<textarea class="textarea" placeholder="Plaintext" rows="10" id="text" onkeyup="countChar(this)" name="text"></textarea>
+		</div>
+		<div class="columns">
+			<div class="column">
+				<input type="range" max="25" min="0" value="13" class="input" id="shift" name="shift">
 			</div>
-			<div class="tile is-vertical is-5">
-				<div class="tile">
-					<div class="tile is-parent is-vertical">
-						<div class="tile is-child">
-							<div class="columns">
-								<div class="column is-10">
-									<input type="range" max="25" min="0" value="13" class="input" id="shift" name="shift">
-								</div>
-								<div class="column is-2" id="shiftdisplay">
-									<script>
-                                        let slider = document.getElementById("shift");
-                                        let output = document.getElementById("shiftdisplay");
-										output.innerHTML = slider.value;
-                                        
+			<div class="column is-narrow" id="shiftdisplay">
+				<script>
+					let slider = document.getElementById("shift");
+					let output = document.getElementById("shiftdisplay");
+					output.innerHTML = slider.value;
 
-                                        slider.oninput = function() {
-                                            output.innerHTML = this.value;
-                                        }
-									</script>
-								</div>
-							</div>
-						</div>
-						<div>
-							<h6 class="title is-6">
-								Characters to be removed from text.
-							</h6>
-							<p>
-								Here you can choose which characters you want to eliminate. The more special characters that are removed from the text, the more secure it becomes.
-							</p>
-						</div>
-						<div class="tile is-child checkbox-container">
-							<input type="checkbox" name="stripSpecChar" value="true" id="stripSpecChar" checked>
-							<label for="stripSpecChar">Strip special characters (compromises security of cipher significantly)</label>
-						</div>
-						<div class="tile is-child">
-							<input class="button" type="submit" value="Encrypt">
-						</div>
-					</div>
-				</div>
+
+					slider.oninput = function() {
+						output.innerHTML = this.value;
+					}
+				</script>
 			</div>
 		</div>
+		<div class="columns">
+			<div>
+				<span class="title is-3">
+					Characters to be removed from text.
+				</span>
+				<p>
+					Here you can choose which characters you want to eliminate. The more special characters that are removed from the text, the more secure it becomes.
+				</p>
+			</div>
+		</div>
+		
+		<div class="tile is-child strong-padding-top">
+			<input type="checkbox" name="stripSpecChar" value="true" id="stripSpecChar" checked>
+			<label for="stripSpecChar">Strip special characters</label>
+		</div>
+		<div class="tile is-child">
+			<input class="button" type="submit" value="Encrypt">
+		</div>
+		
 	</form>
+	
 	<?php
 	function encrypt($text, $shift, $stripSpecChar)
 	{

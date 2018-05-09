@@ -1,51 +1,73 @@
+$endOfLine: "!important";
+
 #output
 {
-	word-wrap: break-word;
-	max-width: 100%;
+	word-wrap: break-word $endOfLine;
+	max-width: 100% $endOfLine;
 }
 
 input::placeholder
 {
-	color: #000 !important;
+	color: #000 $endOfLine;
 }
 
 ::-webkit-input-placeholder
 {
-	color: #000 !important;
+	color: #000 $endOfLine;
 }
 
 ::-moz-placeholder
 {
-	color: #000 !important;
+	color: #000 $endOfLine;
 	opacity: 100%;
 }
 
 :-ms-input-placeholder
 {
-	color: #000 !important;
+	color: #000 $endOfLine;
 }
 
 :-moz-placeholder
 {
-	color: #000 !important;
+	color: #000 $endOfLine;
 }
 
-.checkbox-container
+.light-margin-top
 {
-	input[type='checkbox']
-	{
-		zoom: 2;
-		margin-left: 0.5em;
-		transform: scale(2);
-		-ms-transform: scale(2);
-		-webkit-transform: scale(2);
-		-o-transform: scale(2);
-		-moz-transform: scale(2);
-	}
-	label
-	{
-		zoom: 100%;
-		margin-left: 0.5em;
-		transform: translate(0, 50%);
-	}
+	margin-top: 10px $endOfLine;
+}
+
+.medium-margin-top
+{
+	margin-top: 15px $endOfLine;
+}
+
+.strong-margin-top
+{
+	margin-top: 20px $endOfLine;
+}
+
+.light-padding-top
+{
+	padding-top: 10px $endOfLine;
+}
+
+.medium-padding-top
+{
+	padding-top: 15px $endOfLine;
+}
+
+.strong-padding-top
+{
+	padding-top: 20px $endOfLine;
+}
+
+textarea{
+	width: 100%;
+}
+
+.is-narrow-container
+{
+	margin-left: 15% !important;
+	margin-right: 15% !important;
 }
