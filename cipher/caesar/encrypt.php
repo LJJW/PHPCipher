@@ -27,7 +27,15 @@
 								</div>
 							</div>
 						</div>
-						<div class="tile is-child">
+						<div>
+							<h6 class="title is-6">
+								Characters to be removed from text.
+							</h6>
+							<p>
+								Here you can choose which characters you want to eliminate. The more special characters that are removed from the text, the more secure it becomes.
+							</p>
+						</div>
+						<div class="tile is-child checkbox-container">
 							<input type="checkbox" name="stripSpecChar" value="true" id="stripSpecChar" checked>
 							<label for="stripSpecChar">Strip special characters (compromises security of cipher significantly)</label>
 						</div>
