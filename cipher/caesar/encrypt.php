@@ -86,28 +86,18 @@
 					&nbsp;&nbsp;-
 				</label>
 			</div>
+		</div>
+		<div class="columns">
 			<div class="column">
 				<label class="checkbox">
 					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;!
+					&nbsp;&nbsp;<code>'</code>
 				</label>
 			</div>
 			<div class="column">
 				<label class="checkbox">
 					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;!
-				</label>
-			</div>
-			<div class="column">
-				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;!
-				</label>
-			</div>
-			<div class="column">
-				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;!
+					&nbsp;&nbsp;<code>"</code>
 				</label>
 			</div>
 		</div>

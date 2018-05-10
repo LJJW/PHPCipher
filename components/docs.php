@@ -188,7 +188,8 @@
 				</tbody>
 			</table>
 			<p>
-				The letter 'l' from will be encrypted with the cipher alphabet that starts with the first letter of the keyword which is 'l'. So if you look at the table on the top, you'll find out that the letter in the row of the cipher alphabet that starts with 'l' that is in the same column as the 'l' from the Basic alphabet is the 'W'. This will be the first letter of the encrypted text.<br>
+				The letter 'l' from the example text will be encrypted with the cipher alphabet that starts with the first letter of the keyword which is 'l'. So if you look at the table on the top, you'll find out that the letter in the row of the cipher alphabet that starts with 'l' that is in the same column as the 'l' from the Basic alphabet is the 'W'. This will be the first letter of the encrypted text.<br>
+				The letter 'o' from the example text will be encrypted with the cipher alphabet that starts with the first letter of the keyword which is 'a'. So if you look at the table on the top, you'll find out that the letter in the row of the cipher alphabet that starts with 'a' that is in the same column as the 'o' from the Basic alphabet is the 'O'. You might be wondering why the origin letter is the same as the encrypted letter. That's because the letter of the key which is a results in a shift of 0. That doesn't mean it's less secure. It's as secure as it would be with any other keyword that doesn't contain an 'a'. This will be the first letter of the encrypted text.<br>
 				This procedure is repeated until the whole text is encrypted. A space is not encrypted. but the iterator does move forward. When the end of the keyword is reached, you start again at the beginning.
 			</p>
 		</div>
