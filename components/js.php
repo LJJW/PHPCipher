@@ -24,11 +24,10 @@
         }
 
     });
-</script>
-<script src="http://code.jquery.com/jquery-1.5.js"></script>
-<script>
+    
     function countChar(val) {
         let len = val.value.length;
 		$('#charCount').text(len);
-    };
+    }
 </script>
+<script src="http://code.jquery.com/jquery-1.5.js"></script>

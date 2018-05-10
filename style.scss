@@ -1,70 +1,65 @@
-$endOfLine: "!important";
-
 #output
 {
-	word-wrap: break-word $endOfLine;
-	max-width: 100% $endOfLine;
+	word-wrap: break-word !important;
+	max-width: 100% !important;
 }
 
 input::placeholder
 {
-	color: #000 $endOfLine;
+	color: #000 !important;
 }
 
 ::-webkit-input-placeholder
 {
-	color: #000 $endOfLine;
+	color: #000 !important;
 }
 
 ::-moz-placeholder
 {
-	color: #000 $endOfLine;
+	color: #000 !important;
 	opacity: 100%;
 }
 
 :-ms-input-placeholder
 {
-	color: #000 $endOfLine;
+	color: #000 !important;
 }
 
 :-moz-placeholder
 {
-	color: #000 $endOfLine;
+	color: #000 !important;
 }
 
 .light-margin-top
 {
-	margin-top: 10px $endOfLine;
+	margin-top: 10px !important;
 }
 
 .medium-margin-top
 {
-	margin-top: 15px $endOfLine;
+	margin-top: 15px !important;
 }
 
 .strong-margin-top
 {
-	margin-top: 20px $endOfLine;
+	margin-top: 20px !important;
 }
 
 .light-padding-top
 {
-	padding-top: 10px $endOfLine;
+	padding-top: 10px !important;
 }
 
 .medium-padding-top
 {
-	padding-top: 15px $endOfLine;
+	padding-top: 15px !important;
 }
 
 .strong-padding-top
 {
-	padding-top: 20px $endOfLine;
+	padding-top: 20px !important;
 }
 
-textarea{
-	width: 100%;
-}
 
 .is-narrow-container
 {

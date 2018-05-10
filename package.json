@@ -1,5 +1,5 @@
 {
-  "name": "cipher",
+  "name": "phpcipher",
   "version": "1.0.0",
   "description": "Vigener, Caesar Cipher and Maubrogne System",
   "main": "index.js",
@@ -7,5 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lani Wagner",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.7.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJJW/PHPCipher.git"
+  },
+  "keywords": [
+    "PHP",
+    "cipher"
+  ],
+  "bugs": {
+    "url": "https://github.com/LJJW/PHPCipher/issues"
+  },
+  "homepage": "https://github.com/LJJW/PHPCipher#readme"
 }

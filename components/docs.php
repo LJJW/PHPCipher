@@ -82,7 +82,8 @@
 			<p>
 				The Caesar Cipher uses a monoalphabetic cipher. That means that for the encryption of the whole text, you will be using the same
 				<a href="#shift">shift</a>. The example used in shift shows how the Caesar Cipher works. Just click
-				<a href="#caesarExample">here</a> to find out.
+				<a href="#caesarExample">here</a> to find out.<br>
+				Incase you were asking yourself what that range ist you can select when encrypting and decrypting with the Caesar Cpher, it's the shift.
 			</p>
 		</div>
 		<div class="block">

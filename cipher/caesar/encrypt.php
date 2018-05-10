@@ -31,12 +31,91 @@
 			</div>
 		</div>
 		
-		<div class="tile is-child strong-padding-top">
-			<input type="checkbox" name="stripSpecChar" value="true" id="stripSpecChar" checked>
-			<label for="stripSpecChar">Strip special characters</label>
+		<div class="columns">
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remDot" checked>
+					&nbsp;&nbsp;.
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remComma" checked>
+					&nbsp;&nbsp;,
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remQuestMark" checked>
+					&nbsp;&nbsp;?
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;!
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;;
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;:
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;"
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;'
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;-
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;!
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;!
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;!
+				</label>
+			</div>
+			<div class="column">
+				<label class="checkbox">
+					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;!
+				</label>
+			</div>
 		</div>
-		<div class="tile is-child">
-			<input class="button" type="submit" value="Encrypt">
+		
+		<div class="columns">
+			<div class="column">
+				<input class="button" type="submit" value="Encrypt">
+			</div>
 		</div>
 		
 	</form>
