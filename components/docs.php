@@ -1,4 +1,4 @@
-<div class="container is-fluid section">
+<div class="container is-narrow-container is-fluid section">
 	<div class="content">
 		<div class="block">
 			<a name="about">
@@ -64,12 +64,16 @@
 				<tbody>
 					<tr>
 						<td style="font-family: monospace;" class="has-text-centered">
-							<?php cipherAlph('A', "&emsp;&emsp;&emsp;"); ?>
+							<div class="columns">
+								<?php cipherAlph('A'); ?>
+							</div>
 						</td>
 					</tr>
 					<tr>
 						<td style="font-family: monospace;" class="has-text-centered">
-							<?php cipherAlph('D', "&emsp;&emsp;&emsp;"); ?>
+							<div class="columns">
+								<?php cipherAlph('D'); ?>
+							</div>
 						</td>
 					</tr>
 				</tbody>
@@ -121,7 +125,9 @@
 							Basic alphabet
 						</td>
 						<td class="is-strong" style="font-family: monospace">
-							<?php cipherAlph('A', "&emsp;&emsp;") ?>
+							<div class="columns">
+								<?php cipherAlph('A', "&emsp;&emsp;") ?>
+							</div>
 						</td>
 					</tr>
 				</thead>
@@ -134,9 +140,9 @@
 							11
 						</td>
 						<td style="font-family: monospace;">
-							<?php
-							cipherAlph('L', "&emsp;&emsp;");
-							?>
+							<div class="columns">
+								<?php cipherAlph('L', "&emsp;&emsp;"); ?>
+							</div>
 						</td>
 					</tr>
 					<tr>
@@ -147,9 +153,9 @@
 							0
 						</td>
 						<td style="font-family: monospace;">
-							<?php
-							cipherAlph('A', "&emsp;&emsp;");
-							?>
+							<div class="columns">
+								<?php cipherAlph('A', "&emsp;&emsp;"); ?>
+							</div>
 						</td>
 					</tr>
 					<tr>
@@ -160,9 +166,9 @@
 							19
 						</td>
 						<td style="font-family: monospace;">
-							<?php
-							cipherAlph('T', "&emsp;&emsp;");
-							?>
+							<div class="columns">
+								<?php cipherAlph('T', "&emsp;&emsp;"); ?>
+							</div>
 						</td>
 					</tr>
 					<tr>
@@ -173,9 +179,9 @@
 							8
 						</td>
 						<td style="font-family: monospace;">
-							<?php
-							cipherAlph('I', "&emsp;&emsp;");
-							?>
+							<div class="columns">
+								<?php cipherAlph('I', "&emsp;&emsp;"); ?>
+							</div>
 						</td>
 					</tr>
 					<tr>
@@ -186,9 +192,9 @@
 							13
 						</td>
 						<td style="font-family: monospace;">
-							<?php
-							cipherAlph('N', "&emsp;&emsp;");
-							?>
+							<div class="columns">
+								<?php cipherAlph('N', "&emsp;&emsp;"); ?>
+							</div>
 						</td>
 					</tr>
 				</tbody>

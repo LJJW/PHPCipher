@@ -34,72 +34,207 @@
 		<div class="columns">
 			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remDot" checked>
-					&nbsp;&nbsp;.
+					<input type="checkbox" name="remComma" value="true" id="remComma" checked>
+					&nbsp;&nbsp;<code>,</code>
 				</label>
 			</div>
-			<div class="column">
+			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remComma" checked>
-					&nbsp;&nbsp;,
+					<input type="checkbox" name="remSemiCol" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>;</code>
 				</label>
 			</div>
-			<div class="column">
+			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remQuestMark" checked>
-					&nbsp;&nbsp;?
+					<input type="checkbox" name="remDot" value="true" id="remDot" checked>
+					&nbsp;&nbsp;<code>.</code>
 				</label>
 			</div>
-			<div class="column">
+			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;!
+					<input type="checkbox" name="remExMark" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>!</code>
 				</label>
 			</div>
-			<div class="column">
+			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;;
+					<input type="checkbox" name="remQuestMark" value="true" id="remQuestMark" checked>
+					&nbsp;&nbsp;<code>?</code>
 				</label>
 			</div>
-			<div class="column">
+			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;:
+					<input type="checkbox" name="remColon" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>:</code>
 				</label>
 			</div>
-			<div class="column">
+			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;"
+					<input type="checkbox" name="remSingQuotMark" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>'</code>
 				</label>
 			</div>
-			<div class="column">
+			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;'
+					<input type="checkbox" name="remDoubQuotMark" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>"</code>
 				</label>
 			</div>
-			<div class="column">
+			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;-
+					<input type="checkbox" name="remHyphen" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>-</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remUnderScore" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>_</code>
 				</label>
 			</div>
 		</div>
 		<div class="columns">
-			<div class="column">
+			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;<code>'</code>
+					<input type="checkbox" name="remEqual" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>=</code>
 				</label>
 			</div>
-			<div class="column">
+			<div class="column control">
 				<label class="checkbox">
-					<input type="checkbox" name="stripSpecChar" value="true" id="remExMark" checked>
-					&nbsp;&nbsp;<code>"</code>
+					<input type="checkbox" name="remPlus" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>+</code>
 				</label>
 			</div>
+			<div class="column control"></div>
+			<div class="column control"></div>
+			<div class="column control"></div>
+			<div class="column control"></div>
+			<div class="column control"></div>
+			<div class="column control"></div>
+			<div class="column control"></div>
+			<div class="column control"></div>
+		</div>
+		
+		<div class="columns">
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remOpenBracket" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>(</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remCloseBracket" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>)</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remOpenCurlyBracket" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>{</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remCloseCurlyBrackets" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>}</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remOpenSquareBrackets" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>[</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remCloseSquareBrackets" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>]</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remSmallerThan" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>&lt;</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remBiggerThan" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>&gt;</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remSlash" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>/</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remBackSlash" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>\</code>
+				</label>
+			</div>
+		</div>
+		
+		<div class="columns">
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remAsterisk" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>*</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remAnd" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>&</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remCirconflexe" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>^</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remPercent" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>%</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remDollarSign" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>$</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remHashTag" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>#</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remAt" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>@</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remGravis" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>`</code>
+				</label>
+			</div>
+			<div class="column control">
+				<label class="checkbox">
+					<input type="checkbox" name="remTild" value="true" id="remExMark" checked>
+					&nbsp;&nbsp;<code>~</code>
+				</label>
+			</div>
+			<div class="column control"></div>
 		</div>
 		
 		<div class="columns">
@@ -111,12 +246,37 @@
 	</form>
 	
 	<?php
-	function encrypt($text, $shift, $stripSpecChar)
+	function remChar($text)
 	{
-		if (isset($stripSpecChar))
-			$text = preg_replace("/[^a-zA-Z0-9\|\/\(\)\*]+/u", '', strtoupper($text));
-		else
-			$text = strtoupper($text);
+		$text = strtoupper($text);
+		if (isset($_POST['remComma']))
+			$text = preg_replace('/[,]+/u', '', $text);
+		if (isset($_POST['remSemiCol']))
+			$text = preg_replace('/[;]+/u', '', $text);
+		if (isset($_POST['remDot']))
+			$text = preg_replace('/[\.]+/u', '', $text);
+		if (isset($_POST['remExMark']))
+			$text = preg_replace('/[!]+/u', '', $text);
+		if (isset($_POST['remQuestMark']))
+			$text = preg_replace('/[?]+/u', '', $text);
+		if (isset($_POST['remColon']))
+			$text = preg_replace('/[:]+/u', '', $text);
+		if (isset($_POST['remSingQuotMark']))
+			$text = preg_replace('/[\']+/u', '', $text);
+		if (isset($_POST['remDoubQuotMark']))
+			$text = preg_replace('/["]+/u', '', $text);
+		
+		
+		return $text;
+	}
+	
+	if (isset($_POST['text']) && !empty($_POST['text']) && isset($_POST['shift']) && !empty($_POST['shift']))
+	{
+		$text = $_POST['text'];
+		$shift = $_POST['shift'];
+		
+		echo "<div class='columns section'><div class='column is-8 is-offset-2'><div class='card'><header class='card-header'><p class='card-header-title'>Encrypted text</p></header><div class='card-content'><div class='content' id='output'>";
+		$text = remChar($text);
 		
 		$textArray = str_split($text, 1);
 		
@@ -126,19 +286,7 @@
 				$letter = chr((((ord($letter) - 65) + $shift) % 26) + 65);
 		}
 		
-		return implode($textArray);
-	}
-	if (isset($_POST['text']) && !empty($_POST['text']) && isset($_POST['shift']) && !empty($_POST['shift']))
-	{
-		$text = $_POST['text'];
-		$shift = $_POST['shift'];
-		if (isset($_POST['stripSpecChar']))
-			$stripSpecChar = $_POST['stripSpecChar'];
-		else
-			$stripSpecChar = null;
-		
-		echo "<div class='columns section'><div class='column is-8 is-offset-2'><div class='card'><header class='card-header'><p class='card-header-title'>Encrypted text</p></header><div class='card-content'><div class='content' id='output'>";
-		echo encrypt($text, $shift, $stripSpecChar);
+		echo implode($textArray);
 		echo "</div></div></div></div></div>";
 	}
 	?>
