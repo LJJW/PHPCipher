@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c8ae2d-4060-4ec4-b26b-e0bd8259db4e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cipher/caesar/encrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/cipher/caesar/encrypt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/docs.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/docs.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +38,8 @@
       <file leaf-file-name="docs.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/docs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="191" column="632" selection-start-line="191" selection-start-column="632" selection-end-line="191" selection-end-column="632" />
+            <state relative-caret-position="672">
+              <caret line="25" column="209" selection-start-line="25" selection-start-column="209" selection-end-line="25" selection-end-column="209" />
             </state>
           </provider>
         </entry>
@@ -68,6 +66,7 @@
     <findStrings>
       <find />
       <find>vigenere</find>
+      <find>O</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,12 +167,12 @@
       <option name="presentableId" value="Default" />
       <updated>1525875721761</updated>
       <workItem from="1525875724482" duration="4051000" />
-      <workItem from="1525953036519" duration="1255000" />
+      <workItem from="1525953036519" duration="1861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5306000" />
+    <option name="totallyTimeSpent" value="5912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="68" width="2560" height="1372" extended-state="6" />
@@ -287,8 +286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/docs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="191" column="632" selection-start-line="191" selection-start-column="632" selection-end-line="191" selection-end-column="632" />
+        <state relative-caret-position="672">
+          <caret line="25" column="209" selection-start-line="25" selection-start-column="209" selection-end-line="25" selection-end-column="209" />
         </state>
       </provider>
     </entry>

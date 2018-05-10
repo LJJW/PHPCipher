@@ -20,6 +20,12 @@
 				There are some things you might want to know, or example why some features exist.
 			</p>
 			<h2 class="title">
+				Capitalization
+			</h2>
+			<p class="has-text-justified">
+				You might realize that all letters that are being decrypted are capitalized. That increases security. I will add a feature where you can choose whether the letters should be capitalized or not.
+			</p>
+			<h2 class="title">
 				Removing special characters
 			</h2>
 			<p class="has-text-justified">
@@ -189,7 +195,7 @@
 			</table>
 			<p>
 				The letter 'l' from the example text will be encrypted with the cipher alphabet that starts with the first letter of the keyword which is 'l'. So if you look at the table on the top, you'll find out that the letter in the row of the cipher alphabet that starts with 'l' that is in the same column as the 'l' from the Basic alphabet is the 'W'. This will be the first letter of the encrypted text.<br>
-				The letter 'o' from the example text will be encrypted with the cipher alphabet that starts with the first letter of the keyword which is 'a'. So if you look at the table on the top, you'll find out that the letter in the row of the cipher alphabet that starts with 'a' that is in the same column as the 'o' from the Basic alphabet is the 'O'. You might be wondering why the origin letter is the same as the encrypted letter. That's because the letter of the key which is a results in a shift of 0. That doesn't mean it's less secure. It's as secure as it would be with any other keyword that doesn't contain an 'a'. This will be the first letter of the encrypted text.<br>
+				Now let's encrypt the second letter of the text. 'o' from the example text will be encrypted with the cipher alphabet that starts with the second letter of the keyword,  which is 'a'. So if you look at the table on the top, you'll find out that the letter in the row of the cipher alphabet that starts with 'a' that is in the same column as the 'o' from the Basic alphabet is the 'o'. You might be wondering why the origin letter is the same as the encrypted letter. That's because the letter of the key which is a results in a shift of 0. That doesn't mean it's less secure. It's as secure as it would be with any other keyword that doesn't contain an 'a'. This will be the first letter of the encrypted text.<br>
 				This procedure is repeated until the whole text is encrypted. A space is not encrypted. but the iterator does move forward. When the end of the keyword is reached, you start again at the beginning.
 			</p>
 		</div>
