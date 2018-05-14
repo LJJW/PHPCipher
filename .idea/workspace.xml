@@ -4,8 +4,6 @@
     <list default="true" id="24c8ae2d-4060-4ec4-b26b-e0bd8259db4e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cipher/caesar/encrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/cipher/caesar/encrypt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/docs.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/docs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/func.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/func.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,47 +26,8 @@
       <file leaf-file-name="encrypt.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cipher/caesar/encrypt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="266" column="37" selection-start-line="266" selection-start-column="37" selection-end-line="266" selection-end-column="37" />
-              <folding>
-                <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#!!top" />
-                <element signature="e#1202#1208#0#HTML" expanded="true" />
-                <element signature="e#1208#1214#0#HTML" expanded="true" />
-                <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#!!top" />
-                <element signature="e#1208#1214#0#HTML" expanded="true" />
-                <element signature="e#1214#1220#0#HTML" expanded="true" />
-                <element signature="n#div#3;n#div#3;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#2;n#div#3;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#5;n#div#3;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#6;n#div#3;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#6;n#div#3;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#8;n#div#3;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#9;n#div#3;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#2;n#div#4;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#3;n#div#4;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#2;n#div#5;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#3;n#div#5;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#4;n#div#5;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#5;n#div#5;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#6;n#div#5;n#form#0;n#div#0;n#!!top" />
-                <element signature="e#4789#4793#1#HTML" expanded="true" />
-                <element signature="n#div#7;n#div#5;n#form#0;n#div#0;n#!!top" />
-                <element signature="e#4986#4990#1#HTML" expanded="true" />
-                <element signature="n#div#8;n#div#5;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#9;n#div#5;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#2;n#div#6;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#3;n#div#6;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#4;n#div#6;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#5;n#div#6;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#6;n#div#6;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#7;n#div#6;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#8;n#div#6;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#10;n#div#6;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#11;n#div#6;n#form#0;n#div#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="468">
+              <caret line="272" column="35" selection-start-line="272" selection-start-column="35" selection-end-line="272" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -160,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +136,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,11 +170,13 @@
       <workItem from="1525875724482" duration="4051000" />
       <workItem from="1525953036519" duration="4707000" />
       <workItem from="1525961557793" duration="5820000" />
+      <workItem from="1526117605782" duration="3356000" />
+      <workItem from="1526157768916" duration="1377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14578000" />
+    <option name="totallyTimeSpent" value="19311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="68" width="2560" height="1372" extended-state="6" />
@@ -258,49 +219,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cipher/caesar/encrypt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11340">
+          <caret line="270" column="37" selection-start-line="270" selection-start-column="37" selection-end-line="270" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3192">
+          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cipher/caesar/encrypt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11172">
+          <caret line="266" column="37" selection-start-line="266" selection-start-column="37" selection-end-line="266" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3192">
+          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cipher/caesar/encrypt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4116">
           <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
-          <folding>
-            <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="e#1202#1208#0#HTML" expanded="true" />
-            <element signature="e#1208#1214#0#HTML" expanded="true" />
-            <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="e#1208#1214#0#HTML" expanded="true" />
-            <element signature="e#1214#1220#0#HTML" expanded="true" />
-            <element signature="n#div#3;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#8;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#9;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#4;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#4;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#4;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="e#4789#4793#1#HTML" expanded="true" />
-            <element signature="n#div#7;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="e#4986#4990#1#HTML" expanded="true" />
-            <element signature="n#div#8;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#9;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#4;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#7;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#8;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#10;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#11;n#div#6;n#form#0;n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -395,47 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cipher/caesar/encrypt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="266" column="37" selection-start-line="266" selection-start-column="37" selection-end-line="266" selection-end-column="37" />
-          <folding>
-            <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="e#1202#1208#0#HTML" expanded="true" />
-            <element signature="e#1208#1214#0#HTML" expanded="true" />
-            <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="e#1208#1214#0#HTML" expanded="true" />
-            <element signature="e#1214#1220#0#HTML" expanded="true" />
-            <element signature="n#div#3;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#8;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#9;n#div#3;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#4;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#4;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#4;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="e#4789#4793#1#HTML" expanded="true" />
-            <element signature="n#div#7;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="e#4986#4990#1#HTML" expanded="true" />
-            <element signature="n#div#8;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#9;n#div#5;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#4;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#7;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#8;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#10;n#div#6;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#11;n#div#6;n#form#0;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="468">
+          <caret line="272" column="35" selection-start-line="272" selection-start-column="35" selection-end-line="272" selection-end-column="35" />
         </state>
       </provider>
     </entry>

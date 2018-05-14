@@ -93,6 +93,7 @@
 				</label>
 			</div>
 		</div>
+		
 		<div class="columns">
 			<div class="column control">
 				<label class="checkbox">
@@ -265,6 +266,14 @@
 			$text = preg_replace('/[\']+/u', '', $text);
 		if (isset($_POST['remDoubQuotMark']))
 			$text = preg_replace('/["]+/u', '', $text);
+		if (isset($_POST['remHyphen']))
+			$text = preg_replace('/[-]+/u', '', $text);
+		if (isset($_POST['remUnderScore']))
+			$text = preg_replace('/[_]+/u', '', $text);
+		if (isset($_POST['remEquals']))
+			$text = preg_replace('/[=]+/u', '', $text);
+		if (isset($_POST['remPlus']))
+			$text = preg_replace('/[+]+/u', '', $text);
 		
 		
 		return $text;
@@ -281,10 +290,8 @@
 		$textArray = str_split($text, 1);
 		
 		foreach ($textArray as &$letter)
-		{
 			if (ctype_alpha($letter))
 				$letter = chr((((ord($letter) - 65) + $shift) % 26) + 65);
-		}
 		
 		echo implode($textArray);
 		echo "</div></div></div></div></div>";
